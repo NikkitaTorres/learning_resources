@@ -5,4 +5,136 @@ Python learning:
 
 * https://www.youtube.com/watch?v=b093aqAZiPU&t=1s 
 
-changes
+Notes about learning python:
+
+- Syntax:  basic syntax of the language, including how to declare variables, write loops, conditional statements, and functions.
+
+Indentation: Python uses indentation to define blocks of code. Typically, four spaces are used for each level of indentation. This indentation is crucial for Python's readability and structure.
+
+Variables: Variables are created by assigning a value to a name using the '=' operator. Variable names can contain letters, numbers, and underscores but cannot start with a number.
+
+Comments: Comments in Python start with the '#' symbol and continue to the end of the line. They are used to document code and are ignored by the interpreter.
+
+Statements: Python statements are generally terminated by a newline character. However, you can also use a semicolon (;) to separate statements on the same line.
+
+Blocks and Control Structures: Control structures like if statements, loops, and function definitions use indentation to define blocks of code. There are no braces ({}) or other symbols to define blocks.
+
+Function Calls: Functions are called by writing the function name followed by parentheses (). Arguments can be passed inside the parentheses if the function requires them.
+
+Strings: Strings can be defined using single quotes (''), double quotes ("") or triple quotes (''' ''' or """ """). Python supports various string manipulation operations.
+
+Data Structures: Lists are defined using square brackets ([]), dictionaries using curly braces ({}) with key-value pairs separated by colons (:), and tuples using parentheses ().
+
+Indentifiers: Python identifiers are names given to various elements in the program such as variables, functions, classes, etc. They must start with a letter or an underscore (_) and can contain letters, numbers, and underscores.
+
+Keywords: Python has a set of reserved keywords that cannot be used as identifiers. These keywords are used to define the language's syntax and structure. Included are:
+
+
+False      class      finally    is         return
+None       continue   for        lambda     try
+True       def        from       nonlocal   while
+and        del        global     not        with
+as         elif       if         or         yield
+assert     else       import     pass
+break      except     in         raise
+
+
+- Data types: data types supported by the language, such as integers, floats, strings, arrays, dictionaries, etc.
+
+1. Numeric Types:
+
+* int: Integer type, e.g., 5, -3, 0.
+* float: Floating-point type, e.g., 3.14, -0.001, 2.0.
+
+2. Sequence Types:
+
+* str: String type, e.g., "hello", 'world', "123".
+* list: Ordered collection of items, e.g., [1, 2, 3], ['a', 'b', 'c'].
+* tuple: Immutable ordered collection of items, e.g., (1, 2, 3), ('a', 'b', 'c').
+
+3. Mapping Type:
+
+* dict: Collection of key-value pairs, e.g., {'name': 'John', 'age': 30}, {'a': 1, 'b': 2}.
+
+4. Set Types:
+
+* set: Unordered collection of unique items, e.g., {1, 2, 3}, {'a', 'b', 'c'}.
+* frozenset: Immutable set, e.g., frozenset({1, 2, 3}).
+
+5. Boolean Type:
+
+* bool: Boolean value, either True or False.
+
+6. None Type:
+
+* None: Represents the absence of a value or a null value.
+
+- Control Structures: how to control the flow of the program using control structures like if statements, switch statements, loops (for, while), and exception handling.
+
+- Functions/Methods:  how to define and use functions/methods in the language. Learn about parameters, return types, and scope.
+
+- Libraries and modules: Explore the standard libraries/modules that come with the language, as well as popular third-party libraries that extend its functionality.
+
+1. Data Science and Machine Learning:
+
+* NumPy: For numerical computing with arrays.
+* pandas: Data manipulation and analysis.
+* scikit-learn: Machine learning library with various algorithms and tools.
+* TensorFlow / PyTorch: Deep learning frameworks.
+* Matplotlib / Seaborn: Plotting and data visualization.
+
+2. Web Development:
+
+* Django: High-level web framework for building web applications.
+* Flask: Lightweight web framework for building APIs and web applications.
+* FastAPI: Fast web framework for building APIs with automatic OpenAPI and JSON Schema generation.
+
+3. GUI Development:
+
+* Tkinter: Standard GUI toolkit bundled with Python.
+* PyQt / PySide: Python bindings for the Qt application framework.
+* wxPython: Python bindings for the wxWidgets GUI toolkit.
+
+4. Networking and Web Scraping:
+
+* Requests: HTTP library for making HTTP requests.
+* Beautiful Soup: HTML parsing library for web scraping.
+* Scrapy: Web crawling and scraping framework.
+
+5. Database Access:
+
+* SQLAlchemy: SQL toolkit and Object-Relational Mapping (ORM) library.
+* psycopg2: PostgreSQL adapter for Python.
+* mysql-connector-python: MySQL connector for Python.
+
+6. Testing:
+
+* unittest: Built-in unit testing framework.
+* pytest: Extensible testing framework with advanced features.
+* nose2: Test runner and extensible framework for testing Python code.
+
+7. Data Serialization and Formats:
+
+* json: Built-in module for working with JSON data.
+* pickle: Serialization and deserialization of Python objects.
+* csv: Reading and writing CSV files.
+
+8. Utility and Miscellaneous:
+
+* datetime: Built-in module for working with dates and times.
+* logging: Built-in module for logging.
+* argparse: Parsing command-line arguments.
+* virtualenv / venv: Tools for creating isolated Python environments.
+
+- input/output: how to handle input from users or files and output results to the console or files.
+
+- Debugging: debugging techniques specific to the language, including using debuggers and print statements for troubleshooting.
+
+- Error Handling:  how errors and exceptions are handled in the language and how to write robust code that gracefully handles errors.
+
+- Documentation: Get comfortable with reading the language's documentation to understand its features, functions, and best practices.
+
+- Practice: practice writing code, start with small projects or exercises to reinforce what I've learned and gradually tackle more complex challenges.
+
+
+After lunch - Weekend reading
