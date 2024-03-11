@@ -9,6 +9,36 @@ Notes about learning python:
 
 - Syntax:  basic syntax of the language, including how to declare variables, write loops, conditional statements, and functions.
 
+Indentation: Python uses indentation to define blocks of code. Typically, four spaces are used for each level of indentation. This indentation is crucial for Python's readability and structure.
+
+Variables: Variables are created by assigning a value to a name using the '=' operator. Variable names can contain letters, numbers, and underscores but cannot start with a number.
+
+Comments: Comments in Python start with the '#' symbol and continue to the end of the line. They are used to document code and are ignored by the interpreter.
+
+Statements: Python statements are generally terminated by a newline character. However, you can also use a semicolon (;) to separate statements on the same line.
+
+Blocks and Control Structures: Control structures like if statements, loops, and function definitions use indentation to define blocks of code. There are no braces ({}) or other symbols to define blocks.
+
+Function Calls: Functions are called by writing the function name followed by parentheses (). Arguments can be passed inside the parentheses if the function requires them.
+
+Strings: Strings can be defined using single quotes (''), double quotes ("") or triple quotes (''' ''' or """ """). Python supports various string manipulation operations.
+
+Data Structures: Lists are defined using square brackets ([]), dictionaries using curly braces ({}) with key-value pairs separated by colons (:), and tuples using parentheses ().
+
+Indentifiers: Python identifiers are names given to various elements in the program such as variables, functions, classes, etc. They must start with a letter or an underscore (_) and can contain letters, numbers, and underscores.
+
+Keywords: Python has a set of reserved keywords that cannot be used as identifiers. These keywords are used to define the language's syntax and structure. Included are:
+
+
+False      class      finally    is         return
+None       continue   for        lambda     try
+True       def        from       nonlocal   while
+and        del        global     not        with
+as         elif       if         or         yield
+assert     else       import     pass
+break      except     in         raise
+
+
 - Data types: data types supported by the language, such as integers, floats, strings, arrays, dictionaries, etc.
 
 1. Numeric Types:
