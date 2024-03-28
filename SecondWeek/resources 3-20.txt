@@ -1,0 +1,8 @@
+building a mobile app using AWS and React Native - https://www.youtube.com/watch?v=NqYQ0Muwf3c
+
+build you mobile app faster w/ aws mobile services - https://www.youtube.com/watch?v=KTcDy704GiY
+
+website - https://bluehamham.com/
+
+29a.ch - https://github.com/jwagner/Neonflames 
+

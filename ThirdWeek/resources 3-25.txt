@@ -1,0 +1,69 @@
+Kubernetes explained in 100 seconds - https://www.youtube.com/watch?v=PziYflu8cB8
+Kubernetes explained in 6 minutes - https://www.youtube.com/watch?v=TlHvYWVUZyc 
+you need to learn Kubernetes RIGHT NOW!! - https://www.youtube.com/watch?v=7bA0gTroJjw
+Kubernetes Crash Course for Absolute Beginners [NEW] - https://www.youtube.com/watch?v=s_o8dwzRlu4
+
+Further exploration:
+Become a Kubernetes Administrator - CKA: https://bit.ly/3Iwn71q
+Become a DevOps Engineer - Complete DevOps Bootcamp:  https://bit.ly/3MQgadT
+Become a DevSecOps expert and 10x your value:  https://bit.ly/3Og4dO4
+Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours] https://www.youtube.com/watch?v=X48VuDVv0do
+
+
+Notes:
+
+Containers: Kubernetes is designed to work with container technologies like Docker. Containers encapsulate an application and its dependencies, making it easy to deploy and run the application consistently 
+across different environments.
+
+Nodes: A Kubernetes cluster consists of one or more nodes. Nodes can be physical machines or virtual machines and serve as the runtime environment for containers.
+
+Pods: The basic unit of deployment in Kubernetes is a pod. A pod can contain one or more containers that share the same network and storage resources. Pods are scheduled onto nodes by Kubernetes.
+
+Deployment: Kubernetes provides deployment objects that manage the lifecycle of pods. Deployments allow you to define the desired state of your application, including the number of replicas, and Kubernetes 
+ensures that the actual state matches the desired state.
+
+Services: Kubernetes services provide networking capabilities to pods. They allow pods to communicate with each other and provide a stable endpoint for accessing the application.
+
+Scaling: Kubernetes supports horizontal scaling, which means you can dynamically adjust the number of pod replicas based on resource utilization or other metrics. This helps in efficiently utilizing 
+resources and handling changes in workload demand.
+
+Self-healing: Kubernetes has built-in mechanisms for self-healing. If a pod or node fails, Kubernetes automatically restarts or reschedules the affected components to maintain the desired state.
+
+Configurations: Kubernetes allows you to manage configurations using ConfigMaps and Secrets. ConfigMaps store configuration data as key-value pairs, while Secrets are used for sensitive information like 
+passwords or API keys.
+
+Resource Management: Kubernetes provides features for resource management, including resource quotas, limits, and requests. This helps in allocating resources efficiently among different applications running 
+in the cluster.
+
+Extensibility: Kubernetes is highly extensible and customizable. It has a rich ecosystem of plugins and extensions, such as Helm charts for package management, Istio for service mesh capabilities, and 
+Prometheus for monitoring.
+
+Namespaces: Kubernetes uses namespaces to organize and isolate resources within a cluster. They provide a way to partition cluster resources between multiple users or teams, helping in resource management 
+and access control.
+
+Persistent Volumes (PVs) and Persistent Volume Claims (PVCs): Kubernetes supports persistent storage for stateful applications through PVs and PVCs. PVs represent storage resources in the cluster, 
+while PVCs are requests for persistent storage made by pods. This allows data to persist even if pods are restarted or rescheduled.
+
+StatefulSets: For stateful applications that require stable and unique network identities, StatefulSets are used in Kubernetes. They provide guarantees for the ordering and uniqueness of pod identities, 
+which is important for databases, message brokers, and other stateful workloads.
+
+Rolling Updates and Rollbacks: Kubernetes supports rolling updates for deployments, allowing you to update your application without downtime by gradually replacing old pods with new ones. If a new version 
+of the application introduces issues, Kubernetes also supports rollbacks to revert to a previous stable version.
+
+Custom Resource Definitions (CRDs) and Operators: Kubernetes allows you to define custom resources and controllers using Custom Resource Definitions (CRDs) and Operators. This enables you to extend 
+Kubernetes' capabilities and automate complex application management tasks.
+
+Networking: Kubernetes provides a range of networking options, including Cluster Networking (for pod-to-pod communication within the cluster), Service Networking (for exposing services to the external world), 
+and Network Policies (for implementing network access control and security policies).
+
+Monitoring and Logging: Kubernetes integrates with various monitoring and logging tools to provide visibility into cluster performance, application health, and logs. Popular monitoring solutions include 
+Prometheus, Grafana, and Elasticsearch with Kibana (ELK stack).
+
+Security: Kubernetes offers several security features such as Role-Based Access Control (RBAC), Pod Security Policies (PSPs), Network Policies, and Secrets Management. These features help in securing the 
+cluster, controlling access to resources, and managing sensitive information securely.
+
+Auto-scaling: In addition to manual scaling, Kubernetes supports auto-scaling based on metrics such as CPU utilization or custom metrics using Horizontal Pod Autoscaler (HPA) and Vertical Pod Autoscaler 
+(VPA). This ensures that your applications can handle varying loads automatically.
+
+Multi-cloud and Hybrid Deployments: Kubernetes is designed to be cloud-agnostic and supports multi-cloud and hybrid deployments. This allows you to run Kubernetes clusters across different cloud providers 
+or on-premises infrastructure, providing flexibility and portability for your applications.

@@ -1,0 +1,59 @@
+bitbucket tutrorial: https://www.youtube.com/watch?v=M44nEyd_5To
+
+Git tutorial for version control https://www.youtube.com/watch?v=PWqS4NBhEY8
+
+Git Version Control: Bitbucket supports Git as the underlying version control system. Git is a distributed version control system that allows developers to track changes to code, collaborate with team members, and manage code repositories effectively.
+
+Code Hosting: Bitbucket provides a cloud-based platform for hosting Git repositories. Developers can create public or private repositories to store their code, track changes with commits, branches, and tags, and collaborate with team members through pull requests and code reviews.
+
+Collaboration Features: Bitbucket offers collaboration features such as pull requests, code reviews, issue tracking, and wikis. Pull requests allow developers to propose changes, review code, and merge code into the main branch after approval. Code reviews help maintain code quality 
+and ensure best practices are followed.
+
+Branching Strategies: Bitbucket supports various branching strategies such as feature branches, release branches, and hotfix branches. Developers can create and manage branches within repositories to work on specific features, bug fixes, or releases without affecting the main codebase 
+until changes are ready to be merged.
+
+Access Control: Bitbucket provides access control features to manage permissions and restrict access to repositories, branches, and code. Administrators can define user roles, permissions, and access policies to ensure security and compliance within the development team.
+
+Integration with CI/CD Tools: Bitbucket integrates with continuous integration and continuous deployment (CI/CD) tools such as Jenkins, Bamboo, and Bitbucket Pipelines. Bitbucket Pipelines is a built-in CI/CD solution that allows developers to automate build, test, and deployment 
+workflows directly from Bitbucket repositories.
+
+Code Insights: Bitbucket offers Code Insights, a feature that provides visibility into code quality, test coverage, and performance metrics. Developers can analyze code changes, identify issues, and track progress using Code Insights reports and integrations with third-party tools 
+like SonarCloud and Code Climate.
+
+Code Search and Navigation: Bitbucket includes code search and navigation capabilities to help developers find, explore, and understand code within repositories. Features like code search, file browser, blame view, and code snippets enhance productivity and code readability.
+
+Integration with Atlassian Ecosystem: Bitbucket is part of the Atlassian ecosystem, which includes other tools such as Jira (for project management), Confluence (for documentation and collaboration), and Trello (for task management). Integration between these tools provides a seamless 
+workflow for software development teams.
+
+Cloud and Self-hosted Options: Bitbucket is available as a cloud-hosted service (Bitbucket Cloud) or as a self-hosted solution (Bitbucket Server, formerly known as Stash). Organizations can choose the deployment option that best suits their requirements, infrastructure, and compliance needs.
+
+
+Branch Permissions: Bitbucket allows administrators to set branch permissions, which control who can push or merge changes to specific branches within a repository. This feature enhances security and helps enforce code review processes by restricting access to critical branches like 
+the main branch or release branches.
+
+Repository Forking: Bitbucket supports repository forking, allowing developers to create a copy of a repository under their own account. Forked repositories can be used for experimenting with changes, contributing to open-source projects, or working on separate versions of the same 
+codebase. Forks can later be merged back into the original repository via pull requests.
+
+Webhooks and Integrations: Bitbucket supports webhooks, which are HTTP callbacks triggered by events such as code pushes, pull requests, or issue updates. Webhooks enable integrations with external services, tools, and automation workflows. Popular integrations include Slack notifications, 
+issue trackers, CI/CD pipelines, and code review tools.
+
+Code Review Workflow: Bitbucket facilitates code review workflows with features such as inline comments, task lists, approvals, and merge strategies. Developers can collaborate on code changes, address feedback, and approve merges before code is merged into the main branch. Code review 
+workflows help maintain code quality, consistency, and collaboration within development teams.
+
+Merge Checks: Bitbucket provides merge checks, which are configurable checks and validations that run before a pull request can be merged. Merge checks can include requirements such as passing automated tests, meeting code review approvals, resolving conflicts, and complying with coding 
+standards. Merge checks ensure that code changes are safe and meet quality criteria before being merged into the main codebase.
+
+Repository Insights: Bitbucket offers repository insights and analytics to track repository activity, contributions, and performance metrics. Developers and teams can view statistics such as commit frequency, contributors, code churn, and pull request trends to gain visibility into 
+project progress and productivity.
+
+SSH and HTTPS Support: Bitbucket supports both SSH and HTTPS protocols for accessing Git repositories. SSH provides secure authentication and communication between the local development environment and Bitbucket repositories, while HTTPS allows access via web browsers and Git clients 
+with authentication credentials.
+
+Branching Models: Bitbucket supports different branching models and workflows, such as Gitflow, GitHub Flow, and trunk-based development. Teams can choose a branching strategy that aligns with their development process, release cycle, and collaboration needs, leveraging Bitbucket's 
+branching and merging capabilities.
+
+Pull Request Templates: Bitbucket allows the creation of pull request templates, which are pre-defined formats for pull requests containing guidelines, checklists, and information required for code reviews. Pull request templates help standardize the review process, capture necessary 
+details, and improve communication between contributors and reviewers.
+
+Compliance and Security: Bitbucket offers features and controls for compliance, security, and auditability, including repository permissions, activity logs, IP whitelisting, two-factor authentication (2FA), and integration with identity providers (IdP) for single sign-on (SSO). 
+These capabilities ensure that repositories and code are managed securely and in accordance with organizational policies and regulations.

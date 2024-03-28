@@ -1,0 +1,40 @@
+Build your own cloud - https://www.youtube.com/watch?v=xBIowQ0WaR8
+
+Web app architecture - https://www.youtube.com/watch?v=sDlCSIDwpDs 
+
+Load Balancing: In high-traffic web applications, load balancing distributes incoming client requests across multiple servers to ensure optimal performance, scalability, and reliability.
+
+Caching: Caching mechanisms like browser caching, server-side caching (e.g., using Redis or Memcached), and content delivery networks (CDNs) improve web app performance by storing and serving 
+frequently accessed data/content more efficiently.
+
+Security: Web application security is crucial and includes measures such as user authentication, authorization, data encryption, input validation, protection against common web 
+vulnerabilities (e.g., XSS, CSRF, SQL injection), and regular security audits/testing.
+
+Cloud computing - https://www.youtube.com/watch?v=M988_fsOSWo 
+
+Service Models:
+
+Infrastructure as a Service (IaaS): Provides virtualized computing resources (e.g., virtual machines, storage, networking) on a pay-per-use basis. Users have control over operating systems, applications, 
+and configurations.
+Platform as a Service (PaaS): Offers a platform for developing, deploying, and managing applications without the complexity of managing underlying infrastructure. Examples include cloud-based databases, 
+development platforms, and middleware.
+Software as a Service (SaaS): Delivers software applications over the internet on a subscription basis. Users access applications through web browsers, with the provider handling maintenance, updates, and 
+scalability.
+
+Deployment Models:
+
+Public Cloud: Resources are provided by third-party cloud providers and accessible over the internet. Examples include AWS (Amazon Web Services), Azure, Google Cloud Platform (GCP).
+Private Cloud: Resources are dedicated to a single organization and hosted either on-premises or by a third-party provider. Offers more control, customization, and security.
+Hybrid Cloud: Combines public and private cloud environments, allowing data and applications to move between them. Provides flexibility, scalability, and the ability to leverage both 
+environments based on workload requirements.
+
+Cloud computing architecture tutorial Front end and back end - https://www.youtube.com/watch?v=X43KVeWVkSY 
+
+Android app for beginners - https://www.youtube.com/watch?v=EOfCEhWq8sg 
+
+Top 10 mobile app FW 2024 - https://www.youtube.com/watch?v=SD9KnFsVKsQ 
+
+Best programming language for Mobile app devs - https://www.youtube.com/watch?v=gkyOHjM6GQA 
+
+Most OP way to build mobile apps? - https://www.youtube.com/watch?v=-uN1Q98UMO4 
+

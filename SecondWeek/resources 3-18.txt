@@ -1,0 +1,26 @@
+https://youtu.be/VcT8puLpNKA
+
+Order of learning, order of thinking - Learning the overall picture before trying to "understand" concepts makes it easier to connect the dots between different subjects in materials.
+
+https://www.youtube.com/watch?v=NuyzuNBFWxQ
+
+* Hash - A hash function is a mathematical algorithm that takes an input (or "message") and produces a fixed-size string of characters, which is typically a hexadecimal number. 
+Hashing is commonly used in data storage and authentication systems to map data of arbitrary size to a fixed-size value.
+
+* Salt - Salt is random data that is added to a password before it is hashed. The purpose of using a salt is to defend against rainbow table attacks, where an attacker precomputes hash values for commonly 
+used passwords. Salting makes each password hash unique, even if the passwords are the same.
+
+* HMAC - (Hash-based Message Authentication Code): HMAC is a mechanism for verifying the authenticity and integrity of a message using a cryptographic hash function and a secret key. 
+It involves hashing the message with the secret key, resulting in a unique hash value that can be used to verify the message's integrity.
+
+* Symmetric Encryption - Symmetric encryption uses a single key to both encrypt and decrypt data. The same key is used by both the sender and the recipient to encode and decode the information. 
+Common symmetric encryption algorithms include AES (Advanced Encryption Standard) and DES (Data Encryption Standard).
+
+* Keypairs - In cryptography, a keypair consists of two related cryptographic keys: a public key and a private key. The public key is used for encryption and verifying signatures, while the private key is 
+used for decryption and creating signatures. Key pairs are fundamental to asymmetric encryption systems.
+
+* Asymmetric Encryption - Also known as public-key cryptography, asymmetric encryption uses a pair of keys (public and private) to encrypt and decrypt data. The public key is freely distributed and used 
+for encryption, while the private key is kept secret and used for decryption. RSA and ECC (Elliptic Curve Cryptography) are common asymmetric encryption algorithms.
+
+* Signing - Signing is the process of applying a digital signature to a message or document using a private key. The signature is a unique identifier that verifies the authenticity and integrity of the 
+message, as only the holder of the corresponding public key can verify the signature. Digital signatures are often used in secure communication and data validation processes.
